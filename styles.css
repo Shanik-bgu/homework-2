@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Comic Neue", "Fredoka", sans-serif; /
+}
+
+h1 {
+  color: #6e3170;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Comic Neue", "Fredoka", sans-serif; 
+}
+
+h2, h3 {
+  color: #4c0e53;
+  font-family: "Fredoka", sans-serif; 
+  font-weight: normal;
+  padding-bottom: 5px;
+  font-size: 3rem; 
+
+}
+
+p {
+  line-height: 2;
+  font-family: "Comic Neue", "Fredoka", sans-serif; 
+}
+
+hr {
+  border: none;
+  height: 6px;
+  background: linear-gradient(to right, #470258, #9b59b6);
+  width: 80%;
+  border-radius: 5px;
+}
+
+a {
+  color: #ae0ae0;
+  font-family: "Comic Neue", "Fredoka", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.top-container {
+  background-color: #f7fffe;
+  position: relative;
+}
+
+.middle-container {
+  margin: 0;
+  background-color: #cab3da;
+}
+
+.bottom-container {
+  background-color: #ffffff;
+  padding: 50px 0 20px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+.btn {
+  background: #4b085f;
+  border-radius: 8px;
+  font-family: "Comic Neue", "Fredoka", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+  background: #57b3a6;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+#Luna-img,
+#PMPic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  padding-right: 40px; 
+}
+
+
+.footer-link {
+  color: #22035c;
+}
